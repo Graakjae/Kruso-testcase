@@ -17,6 +17,8 @@
   }
 
   .accordion-box-header {
+    background-color: #013CA5;
+    border-radius: 20px;
     padding: 0.5rem 3rem 0.5rem 1rem;
     min-height: 3.5rem;
     line-height: 1.25rem;
@@ -41,6 +43,8 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    border-radius: 0 0px 20px 20px;
+
   }
   .accordion-box-indhold-content {
     padding: 1rem;
