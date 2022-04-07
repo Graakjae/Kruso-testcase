@@ -12,13 +12,13 @@
     background-color: #013CA5;
     color: white;
     margin: 1rem 0;
-    border-radius: 20px;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25);
+    border-radius: 50px;
+    box-shadow: 1px 1px 15px -1px rgba(0,0,0,0.7)
   }
 
+
   .accordion-box-header {
-    background-color: #013CA5;
-    border-radius: 20px;
+    border-radius: 50px;
     padding: 0.5rem 3rem 0.5rem 1rem;
     min-height: 3.5rem;
     line-height: 1.25rem;
@@ -30,12 +30,23 @@
   }
   .accordion-box-header::after {
     content: "\002B";
-    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #013CA5;
+    background-color: white;
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
     position: absolute;
-    right: 1rem;
+    right: 0.7rem;
   }
   .accordion-box-header.active::after {
     content: "\2212";
+    background-color: #013CA5;
+    color: white;
+    border-radius: 50px;
   }
   .accordion-box-indhold {
     background-color: white;
@@ -43,13 +54,13 @@
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    border-radius: 0 0px 20px 20px;
+    border-radius: 50px;
 
   }
   .accordion-box-indhold-content {
     padding: 1rem;
     line-height: 1.5rem;
-    border-radius: 20px;
+    border-radius: 50px;
   
   }
   
