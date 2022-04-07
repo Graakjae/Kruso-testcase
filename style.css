@@ -19,7 +19,7 @@
 
   .accordion-box-header {
     border-radius: 50px;
-    padding: 0.5rem 3rem 0.5rem 1rem;
+    padding: 0.5rem 3rem 0.5rem 2rem;
     min-height: 3.5rem;
     line-height: 1.25rem;
     font-weight: bold;
@@ -55,10 +55,11 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
     border-radius: 50px;
+    
 
   }
   .accordion-box-indhold-content {
-    padding: 1rem;
+    padding: 2rem;
     line-height: 1.5rem;
     border-radius: 50px;
   
